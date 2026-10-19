@@ -1,16 +1,73 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# DesignVerse — Student Design & Innovation Fest
 
-Currently, two official plugins are available:
+DesignVerse is a creative festival landing page concept designed to bring students together through design, technology, innovation, and collaboration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Bold, editorial-inspired visual design
+- Dark theme with maroon and pink accents
+- Festival photography and event introduction
+- Activities and experience section
+- Responsive layout for desktop and mobile
+- Registration interest form with input validation and confirmation message
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the Oxlint configuration
+- React
+- Vite
+- HTML
+- CSS
+- JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Getting Started
+
+### Prerequisites
+
+Install Node.js and npm before running the project.
+
+### Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/shreyakvdc-blip/designverse.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd designverse
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL shown in your terminal.
+
+## Production Build
+
+To create an optimized production build, run:
+
+```bash
+npm run build
+```
+
+The generated files will be available in the `dist` folder.
+
+## Note
+
+This project is a front-end demonstration. The registration form displays a confirmation message but does not store submissions in a database or send emails. Event details are illustrative and can be updated.
+
+## Author
+
+Student project for the Nirvana Tech Team assignment.
